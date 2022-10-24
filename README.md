@@ -1,7 +1,7 @@
 # Loudout-web
 Loudout web is a music streaming web application with amezing features.
 
-# Loudout API for serving music
+# Loudout app for serving music
 
 ## Primary Features:
 1. User registration (Signup/Signin)
