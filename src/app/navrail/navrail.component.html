@@ -1,0 +1,21 @@
+<nav class="px-5 py-7 min-h-screen bg-dark flex flex-col gap-4 items-center">
+    <a href="#">
+        <img src="/assets/logo.png" alt="">
+    </a>
+    <!-- rail items -->
+    <div class="rail-icons rounded-full text-2xl bg-dark-alt w-full flex flex-col gap-7 items-center mt-4 px-4 py-6">
+        <a *ngFor="let item of primaryNavItmes" [href]="item.url" [ngClass]="{'active': item.icon === 'icon-home'}">
+            <i [class]="item.icon"></i>
+        </a>
+    </div>
+
+    <div class="rail-icons rounded-full text-2xl bg-dark-alt w-full flex flex-col gap-7 items-center mt-4 px-4 py-6">
+        <a href="#">
+            <i class="icon-profile"></i>
+        </a>
+        <a href="#">
+            <i class="icon-logout"></i>
+        </a>
+    </div>
+
+</nav>

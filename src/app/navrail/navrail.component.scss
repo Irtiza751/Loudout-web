@@ -1,0 +1,19 @@
+:host {
+    nav {
+        max-width: 100px;
+    }
+
+    .rail-icons a i::before {
+        color: #EFEEE0;
+        opacity: 25%;
+    }
+
+    .rail-icons a.active {
+        filter: drop-shadow(0px 4px 4px rgba(250, 205, 102, 0.25));
+        
+        & > i::before {
+            opacity: 1;
+            color: #facd66;
+        }
+    }
+}
